@@ -15,10 +15,9 @@ app.post("/",function(request,response){
     
 const state = request.body.cityName;
 console.log(state);
-// const country = "us";
-const apid = "c94e5e9621e28c37dec6b9777d619213"
+// at the place of apikey insert openweathermap api key
+const apid = "apikey"
 const url = "https://api.openweathermap.org/data/2.5/weather?q="+state+"&appid="+apid+"&units=metric";
-// const url = "https://api.openweathermap.org/data/2.5/weather?q="+state+","+country+"&appid="+apid+"&units=metric";
 https.get(url,function(res){
     res.on('data', function(data) {
         const weatherdata = JSON.parse(data);
