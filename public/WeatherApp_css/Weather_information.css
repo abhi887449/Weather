@@ -1,0 +1,16 @@
+#body {
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+#nav-background-color{
+    background-color: rgba(30, 88, 94, 0.51);
+    
+}
+#Weather-nav-logo{
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+}

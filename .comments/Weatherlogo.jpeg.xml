@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment version="3.0">
+  <caption>Single Weather Icons drawing</caption>
+  <note>Single Weather Icons drawing (Cliparts) cloudy,weather,symbols,sunny</note>
+  <place/>
+  <categories>
+    <category value="cloudy"/>
+    <category value="weather"/>
+    <category value="symbols"/>
+    <category value="sunny"/>
+  </categories>
+</comment>

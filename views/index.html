@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="WeatherApp_Img/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="WeatherApp_css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Weather</title>
+</head>
+<body id="body" style="background-image: url('WeatherApp_Img/weatherappbackground.png');">
+    <nav id="nav-background-color" class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid" >
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="navbar-brand" href="#">
+                        <img id="Weather-nav-logo" src="WeatherApp_Img/Weatherlogo.jpeg" alt="Weatherlogo">
+                      </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" style="color: white;" aria-current="page" href="#">Weather</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" style="color: white;" aria-current="page" href="#">How it work</a>
+                </li>
+            </div>
+          </div>
+    </nav>
+    <div style="height: 50px;"></div>
+    <div class="container">
+    <div id="location-card" class="card">
+        <div class="card-header">
+          <h4>Location Details</h4>
+        </div>
+        <div class="card-body">
+          <form action="/" method="post">
+            <div class="mb-3">
+              <label for="city-name" class="form-label">City Name</label>
+              <input type="text" class="form-control" id="city" name="cityName" >
+              
+            </div>
+            
+            <div style="height: 10px;"></div>
+            <div>
+            <button type="submit" class="btn btn-success btn-sm">Submit</button>
+          </div>
+        </form>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
