@@ -14,7 +14,6 @@ app.post("/",function(request,response){
     
     
 const state = request.body.cityName;
-console.log(state);
 // at the place of apikey insert openweathermap api key
 const apid = "apikey"
 const url = "https://api.openweathermap.org/data/2.5/weather?q="+state+"&appid="+apid+"&units=metric";
